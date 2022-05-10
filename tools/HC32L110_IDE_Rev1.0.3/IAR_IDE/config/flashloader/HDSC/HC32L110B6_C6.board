@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="iso-8859-1"?>
+
+<flash_board>
+  <pass>
+    <loader>$TOOLKIT_DIR$\config\flashloader\HDSC\FlashHC32L110B6_C6.flash</loader>
+    <range>CODE 0x00000000 0x00007FFF</range>
+  </pass>
+</flash_board>

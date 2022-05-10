@@ -1,0 +1,25 @@
+﻿==>>HC32L110_Rev1.1.4 Release 2020-07-31:
+1、更新i2c_slave_poll样例中SCKIO配置；
+2、新增i2c_slave_int样例；
+
+==>>HC32L110_Rev1.1.3 Release 2020-06-03:
+1、更新对LowPin MCU 未封出IO的配置。
+
+==>>HC32L110_Rev1.1.2 Release 2020-05-27:
+1、更新ADC adc_norm_polling_sw样例，改成轮询采样两个通道。
+2. 更正使用内部DAC作为VC的负端输入时，时需要使能DIVEN
+3. I2C初始化流程更新；
+4. 系统时钟使能流程更新；
+5.更新P23作为PCA端口的配置；
+
+﻿==>>HC32L110_Rev1.0.2 Release 2018-11-28:
+1、更新clk.c部分在MISRA规则中的编译问题；
+==>>HC32L110_Rev1.0.1 Release 2018-10-29:
+1、I2C模块接收数据多读一个字节问题；中断服务函数数据接收问题；
+2、串口发送数据前，先清标记再发数据； 
+3、I2C模块readme更新
+4、Clk_GetHClkFreq()增加对22.12MHz，频率的获取；
+5、内部低速32.8K更改为32768； 
+
+==>>HC32L110_Rev1.0.0 Release 2018-09-14:
+	Initial Version

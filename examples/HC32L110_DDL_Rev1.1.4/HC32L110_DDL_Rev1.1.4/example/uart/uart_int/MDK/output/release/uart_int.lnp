@@ -1,0 +1,14 @@
+--cpu Cortex-M0+
+".\output\release\startup_hc32l110.o"
+".\output\release\system_hc32l110.o"
+".\output\release\main.o"
+".\output\release\ddl.o"
+".\output\release\interrupts_hc32l110.o"
+".\output\release\clk.o"
+".\output\release\uart.o"
+".\output\release\bt.o"
+".\output\release\lpm.o"
+".\output\release\gpio.o"
+--strict --scatter ".\output\release\uart_int.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map
+--list ".\output\release\uart_int.map" -o .\output\release\uart_int.axf

@@ -1,0 +1,27 @@
+[FILEFORMAT]
+rev=1.6
+
+[CHIP]
+name=HC32L110C6UA
+endiansupport=le
+thumbsupport=true
+armsupport=false
+fpu=None
+SIMD=false
+
+JTAG=false
+SWD=true
+SWO_TraceD0=false
+
+[CORE]
+name=Cortex-M0+
+
+[DDF FILE]
+name=HDSC\HC32L110C6UA.ddf
+
+[LINKER FILE]
+name=$TOOLKIT_DIR$\config\linker\HDSC\HC32L110B6_C6.icf
+
+[FLASH LOADER]
+little=$TOOLKIT_DIR$\config\flashloader\HDSC\HC32L110B6_C6.board
+

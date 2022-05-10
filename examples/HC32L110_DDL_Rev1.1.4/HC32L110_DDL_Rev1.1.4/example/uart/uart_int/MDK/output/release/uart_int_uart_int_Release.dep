@@ -1,0 +1,171 @@
+Dependencies for Project 'uart_int', Target 'uart_int_Release': (DO NOT MODIFY !)
+F (.\startup_hc32l110.s)(0x5F2386F8)(--cpu Cortex-M0+ --li -g --apcs=interwork -I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include--pd "__UVISION_VERSION SETA 514" --pd "_RTE_ SETA 1" --pd "ARMCM0P SETA 1"-o .\output\release\startup_hc32l110.o --depend .\output\release\startup_hc32l110.d)
+F (..\..\..\..\mcu\common\system_hc32l110.c)(0x620DBFA8)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\system_hc32l110.o --omf_browse .\output\release\system_hc32l110.crf --depend .\output\release\system_hc32l110.d)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\source\main.c)(0x620DC6FB)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\main.o --omf_browse .\output\release\main.crf --depend .\output\release\main.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+I (..\..\..\..\driver\inc\uart.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\bt.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\lpm.h)(0x5ECDF70F)
+F (..\..\..\..\driver\src\ddl.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\ddl.o --omf_browse .\output\release\ddl.crf --depend .\output\release\ddl.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\interrupts_hc32l110.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\interrupts_hc32l110.o --omf_browse .\output\release\interrupts_hc32l110.crf --depend .\output\release\interrupts_hc32l110.d)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\clk.c)(0x5ECDF915)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\clk.o --omf_browse .\output\release\clk.crf --depend .\output\release\clk.d)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\uart.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\uart.o --omf_browse .\output\release\uart.crf --depend .\output\release\uart.d)
+I (..\..\..\..\driver\inc\uart.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\bt.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\bt.o --omf_browse .\output\release\bt.crf --depend .\output\release\bt.d)
+I (..\..\..\..\driver\inc\bt.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\lpm.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\lpm.o --omf_browse .\output\release\lpm.crf --depend .\output\release\lpm.d)
+I (..\..\..\..\driver\inc\lpm.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\..\..\..\driver\src\gpio.c)(0x5ECDF70F)(-c --cpu Cortex-M0+ --li -g -O0 --apcs=interwork --split_sections -I..\..\..\..\mcu\common -I..\source -I..\..\..\..\driver\inc-I D:\Ñ¸À×ÏÂÔØ\HC32L110_DDL_Rev1.1.4\HC32L110_DDL_Rev1.1.4\example\uart\uart_int\MDK\RTE-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include-I C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\Device\ARM\ARMCM0plus\Include-D__UVISION_VERSION="514" -D_RTE_ -DARMCM0P -DHC32L110Bxxx-o .\output\release\gpio.o --omf_browse .\output\release\gpio.crf --depend .\output\release\gpio.d)
+I (..\..\..\..\driver\inc\gpio.h)(0x5ECDF837)
+I (..\..\..\..\driver\inc\ddl.h)(0x5ECDF70F)
+I (..\..\..\..\mcu\common\base_types.h)(0x5ECDF70F)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdio.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\string.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stddef.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\stdint.h)(0x5E8E3CC2)
+I (D:\Apps\Keil5\ARM\ARMCC\include\assert.h)(0x5E8E3CC2)
+I (..\..\..\..\mcu\common\hc32l110.h)(0x5ECDF70F)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\core_cm0plus.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_version.h)(0x5E8ED122)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_compiler.h)(0x5E8306C2)
+I (C:\Users\19021\AppData\Local\Arm\Packs\ARM\CMSIS\5.7.0\CMSIS\Core\Include\cmsis_armcc.h)(0x5E8ED122)
+I (..\..\..\..\mcu\common\system_hc32l110.h)(0x5ED73BA1)
+I (..\..\..\..\driver\inc\clk.h)(0x5ECDF70F)
+I (..\..\..\..\driver\inc\interrupts_hc32l110.h)(0x5ECDF70F)
+I (..\source\ddl_device.h)(0x5F2386F8)
+F (..\readme.txt)(0x5ECDF710)()

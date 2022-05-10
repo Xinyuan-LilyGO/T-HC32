@@ -1,0 +1,11 @@
+--cpu Cortex-M0+
+".\output\release\startup_hc32l110.o"
+".\output\release\system_hc32l110.o"
+".\output\release\main.o"
+".\output\release\ddl.o"
+".\output\release\interrupts_hc32l110.o"
+".\output\release\clk.o"
+".\output\release\gpio.o"
+--strict --scatter ".\output\release\clk_systick.sct"
+--keep=*Handler --summary_stderr --info summarysizes --map
+--list ".\output\release\clk_systick.map" -o .\output\release\clk_systick.axf

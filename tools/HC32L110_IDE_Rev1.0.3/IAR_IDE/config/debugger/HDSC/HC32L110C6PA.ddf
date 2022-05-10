@@ -1,0 +1,27 @@
+
+;; Architecture extensions
+#include weak "..\ARM\ARMv6-M-SYST.ddf"
+
+;; Memory information ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
+;; 
+;; Used to define address zones within the ARM address space (Memory). 
+;;
+;;   Name      may be almost anything
+;;   AdrSpace  must be Memory
+;;   StartAdr  start of memory block
+;;   EndAdr    end of memory block
+;;   AccType   type of access, read-only (R), read-write (RW) or SFR (W)
+
+[Memory]
+;;         Name             AdrSpace    StartAdr    EndAdr      AccType   Width 
+Memory =  SystemSFR         Memory      0xE0000000  0xE00FFFFF  W
+Memory =  AHB    			Memory      0x40020000  0x40020FFF  W
+Memory =  Periph            Memory      0x40000000  0x40003FFF  W  
+Memory =  RAM               Memory      0x20000000  0x20000FFF  RW 
+Memory =  Flash             Memory      0x00000000  0x00007FFF  R  
+
+TrustedRanges = true
+UseSfrFilter = true
+
+[SfrInclude]
+File = HC32L110C.svd
