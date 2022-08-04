@@ -6,7 +6,7 @@
   </TargetMCU>
   <CrystalIndex>3</CrystalIndex>
   <HexFile>C:\Users\19021\Desktop\template\MDK\output\release\template.hex</HexFile>
-  <Com>COM49</Com>
+  <Com>COM35</Com>
   <AutoNumber>
     <AutoNumberSelected>false</AutoNumberSelected>
     <AotuNumberStartAddr></AotuNumberStartAddr>
